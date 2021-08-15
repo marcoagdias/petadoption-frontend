@@ -1,5 +1,5 @@
 import { FiLogIn } from 'react-icons/fi'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './styles.css'
 
@@ -27,12 +27,12 @@ const Home = () => {
                 estimação.
               </p>
             <div className="button-petpoint">
-              {/* <Link to="/create-petpoint"> */}
+              <Link to="/create-pet-point">
                 <span>
                   <FiLogIn />
                 </span>
                 <strong>Cadastre um pet para doação</strong>
-              {/* </Link> */}
+              </Link>
             </div>
             </div>
             <img src={homeBackground} alt="home-background" className="home-background-img" />
