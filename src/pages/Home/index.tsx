@@ -22,12 +22,12 @@ const Home = () => {
                 Adote um <span className="themed-text">amigo</span>
               </h1>
               <p>
-                Pet Adoption é a conexão ideal entre aqueles <br />
+                Pet Paws é a conexão ideal entre aqueles <br />
                 que são apaixonados por animais de <br />
                 estimação.
               </p>
             <div className="button-petpoint">
-              <Link to="/create-pet-point">
+              <Link to="/create-petpoint">
                 <span>
                   <FiLogIn />
                 </span>
