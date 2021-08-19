@@ -1,15 +1,15 @@
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom'
 
-import Home from './pages/Home';
-import CreatePetPoint from './pages/CreatePetPoint';
+import Home from './pages/Home'
+import CreatePetPoint from './pages/CreatePetPoint'
 
 const Routes = () => {
-    return (
-        <BrowserRouter>
-            <Route path="/" component={Home} exact />
-            <Route path="/create-pet-point" component={CreatePetPoint} />
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Route component={Home} path="/" exact />      
+      <Route component={CreatePetPoint} path="/create-petpoint"/>      
+    </BrowserRouter>
+  )
 }
 
-export default Routes;
+export default Routes
