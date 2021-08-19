@@ -11,7 +11,7 @@ const Home = () => {
     <div id="page-home">
       <div className="content">
         <header className="homeIllustration">
-          <img src={logo} alt="PetPaws" />
+          <img src={logo} alt="Pet Adoption" />
         </header>
 
         <main>
@@ -22,9 +22,8 @@ const Home = () => {
                 Adote um <span className="themed-text">amigo</span>
               </h1>
               <p>
-                Pet Paws é a conexão ideal entre aqueles <br />
-                que são apaixonados por animais de <br />
-                estimação.
+                Pet Adoption irá encontrar um novo lar <br />
+                para seu Pet. Cadastre seu Pet logo abaixo.
               </p>
             <div className="button-petpoint">
               <Link to="/create-petpoint">

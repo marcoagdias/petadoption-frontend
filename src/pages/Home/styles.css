@@ -39,7 +39,7 @@
 }
 
 #page-home .content main .content-wrapper .themed-text {
-  color: #C67472;
+  color: #d11000;
 }
 
 #page-home .content main h1 {
@@ -75,7 +75,7 @@
 }
 
 #page-home .content main a span {
-  background: rgba(166, 99, 97, 1);
+  background: #6C6C80;
   width: 72px;
   height: 72px;
 
@@ -98,7 +98,7 @@
 }
 
 #page-home .content main a:hover {
-  background: rgb(211, 129, 127);
+  background: #6C6C80;
 }
 
 @media(max-width: 900px) {

@@ -244,7 +244,7 @@ const CreatePetPoint = () => {
       <div id="page-create-point">
         <header>
           <Link to="/">
-            <img src={logo} alt="PetPaws" />
+            <img src={logo} alt="Pet Adoption" />
           </Link>
 
           <Link to="/">
