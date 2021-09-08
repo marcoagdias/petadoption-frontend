@@ -313,7 +313,7 @@ const CreatePetPoint = () => {
 
               <br />
 
-              <label htmlFor="description">Descrição</label>
+              <label htmlFor="description">Informações adicionais do pet</label>
               <textarea
                 name="description"
                 id="description"
