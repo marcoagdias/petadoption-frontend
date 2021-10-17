@@ -254,17 +254,17 @@ const CreatePetPoint = () => {
         </header>
 
         <form onSubmit={handleSubmit}>
-          <h1>Cadastro do meu Pet</h1>
+          <h1>Cadastro do Pet</h1>
 
           <Dropzone onFileUploaded={setSelectedFile} />
 
           <fieldset>
             <legend>
-              <h2>Dados Pessoais</h2>
+              <h2>Dados do doador</h2>
             </legend>
 
             <div className="field">
-              <label htmlFor="username">Nome do(a) doador(a)</label>
+              <label htmlFor="username">Nome:</label>
               <input
                 type="text"
                 name="username"
@@ -276,7 +276,7 @@ const CreatePetPoint = () => {
 
               <div className="field-group">
                 <div className="field">
-                  <label htmlFor="email">E-mail</label>
+                  <label htmlFor="email">E-mail:</label>
                   <input
                     type="email"
                     name="email"
@@ -285,11 +285,12 @@ const CreatePetPoint = () => {
                   />
                 </div>
                 <div className="field">
-                  <label htmlFor="username">WhatsApp</label>
+                  <label htmlFor="username">Número com o DDD:</label>
                   <input
                     type="text"
                     name="whatsapp"
                     id="whatsapp"
+                    placeholder="Somente números"
                     onChange={handleInputChange}
                   />
                 </div>
@@ -299,11 +300,11 @@ const CreatePetPoint = () => {
 
           <fieldset>
             <legend>
-              <h2>Dados do Pet</h2>
+              <h2>Dados do pet</h2>
             </legend>
 
             <div className="field">
-              <label htmlFor="petname">Nome do pet</label>
+              <label htmlFor="petname">Nome:</label>
               <input
                 type="text"
                 name="petname"
@@ -313,7 +314,7 @@ const CreatePetPoint = () => {
 
               <br />
 
-              <label htmlFor="description">Informações adicionais do pet</label>
+              <label htmlFor="description">Informações adicionais sobre o pet:</label>
               <textarea
                 name="description"
                 id="description"
@@ -339,7 +340,7 @@ const CreatePetPoint = () => {
 
             <div className="field-group">
               <div className="field">
-                <label htmlFor="uf">Estado (UF)</label>
+                <label htmlFor="uf">Estado (UF):</label>
                 <select value={selectedUf} onChange={handleSelectUf} name="uf" id="uf">
                   <option value="0">Selecione uma UF</option>
                   {ufs.map(uf => (
@@ -348,7 +349,7 @@ const CreatePetPoint = () => {
                 </select>
               </div>
               <div className="field">
-                <label htmlFor="city">Cidade</label>
+                <label htmlFor="city">Cidade:</label>
                 <select value={selectedCity} onChange={handleSelectCity} name="city" id="city">
                   <option value="0">Selecione uma cidade</option>
                   {cities.map(city => (

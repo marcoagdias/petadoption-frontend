@@ -23,7 +23,7 @@ const Home = () => {
               </h1>
               <p>
                 Pet Adoption irá encontrar um novo lar <br />
-                para seu Pet. Cadastre seu Pet logo abaixo.
+                para seu pet. Cadastre seu pet logo abaixo.
               </p>
             <div className="button-petpoint">
               <Link to="/create-petpoint">
