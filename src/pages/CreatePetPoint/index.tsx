@@ -269,6 +269,7 @@ const CreatePetPoint = () => {
                 type="text"
                 name="username"
                 id="username"
+                required={true}
                 onChange={handleInputChange}
               />
 
@@ -281,15 +282,17 @@ const CreatePetPoint = () => {
                     type="email"
                     name="email"
                     id="email"
+                    required={true}
                     onChange={handleInputChange}
                     />
                 </div>
                 <div className="field">
-                  <label htmlFor="username">Número com o DDD sem espaço:</label>
+                  <label htmlFor="username">WhatsApp com o DDD e sem espaço:</label>
                   <input
-                    type="text"
+                    type="number"
                     name="whatsapp"
                     id="whatsapp"
+                    required={true}
                     onChange={handleInputChange}
                   />
                 </div>
@@ -308,6 +311,7 @@ const CreatePetPoint = () => {
                 type="text"
                 name="petname"
                 id="petname"
+                required={true}
                 onChange={handleInputChange}
               />
 
@@ -317,6 +321,7 @@ const CreatePetPoint = () => {
               <textarea
                 name="description"
                 id="description"
+                required={true}
                 onChange={handleTextareaChange}
               />
             </div>
