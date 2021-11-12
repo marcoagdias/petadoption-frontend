@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# PetAdoption Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
+Esta aplicação tem como objetivo ser um cliente web para cadastrar os pets no banco de dados.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+1. VSCode
+2. Yarn
 
-### `yarn start`
+## Como rodar a API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Copie este repositório para sua máquina: `git clone https://github.com/Vitorhr10/petadoption-frontend`
+2. Instale a CLI do Yarn para utilizar os comandos abaixo, caso não possua.
+3. Acesse este [link](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) para instalar a CLI do Yarn.
+4. Verifique se foi instalado corretamente a CLI usando o comando: `yarn -v`
+5. Instale as dependências do projeto: `yarn`
+8. Rode a aplicação: `yarn start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Como contribuir
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clique em Fork neste repositório
+2. Crie uma Branch com sua implementação: `git checkout -b my-feature`
+3. Comita suas alterações: `git commit -m 'feat: My new feature'`
+4. Envie sua branch para o repositório remoto: `git push origin my-feature`
+5. Aguarde a aprovação de sua implementação pelo mantenedor do projeto
