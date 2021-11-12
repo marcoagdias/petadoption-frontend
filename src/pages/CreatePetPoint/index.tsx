@@ -282,15 +282,14 @@ const CreatePetPoint = () => {
                     name="email"
                     id="email"
                     onChange={handleInputChange}
-                  />
+                    />
                 </div>
                 <div className="field">
-                  <label htmlFor="username">Número com o DDD:</label>
+                  <label htmlFor="username">Número com o DDD sem espaço:</label>
                   <input
                     type="text"
                     name="whatsapp"
                     id="whatsapp"
-                    placeholder="Somente números"
                     onChange={handleInputChange}
                   />
                 </div>
