@@ -10,7 +10,7 @@ Esta aplicação tem como objetivo ser um cliente web para cadastrar os pets no 
 
 ## Como rodar a API
 
-1. Copie este repositório para sua máquina: `git clone https://github.com/Vitorhr10/petadoption-frontend`
+1. Copie este repositório para sua máquina: `git clone https://github.com/vhugorod/petadoption-frontend`
 2. Instale a CLI do Yarn para utilizar os comandos abaixo, caso não possua.
 3. Acesse este [link](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) para instalar a CLI do Yarn.
 4. Verifique se foi instalado corretamente a CLI usando o comando: `yarn -v`
